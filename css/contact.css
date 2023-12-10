@@ -1,0 +1,257 @@
+
+.kontak{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: rgb(39, 39, 39);
+    justify-content: center;
+    
+}
+
+.kontak .bg-kontak{
+    width: 100%;
+    height: 450px;
+    background-image: url(../properti/bg-contact.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    color: #fff;
+}
+.kontak .bg-kontak h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-top: 130px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.kontak .isi-kontak{
+    width: 100%;
+    height: 100%;
+
+}
+.kontak .isi-kontak h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #934004;
+}
+
+.isi-kontak .icon-informasi{
+    width: 100%;
+    /* height: 600px; */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 40px;
+    /* background-color: #00ff37; */
+}
+.isi-kontak .icon-informasi .box-icon{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.icon-informasi .icon{
+    display: block;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    padding-top: 30px;
+
+}
+.icon-informasi .icon h5{
+    display: flex;
+    justify-content: center;
+    color: #b3662e;
+}
+.icon-informasi .icon p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: .9rem;
+    font-style: normal;
+}
+.icon-informasi .icon .feather{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    color: #b3662e;
+}
+.icon-informasi .garis{
+    width: 3px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #b3662e;
+}
+
+.question{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+
+}
+
+.question .isi-que{
+    width: 75%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    /* background-color: yellow; */
+}
+
+.question .message{
+    width: 75%;
+    height: auto;
+    /* background-color: yellow; */
+}
+
+.message .input-message{
+    width: 100%;
+    height: 100%;
+    /* background-color: #ae94d9; */
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.message .input-message form{
+    margin-top: 20px;
+    width: 100%;
+    /* background-color: #00ff37; */
+}
+
+.input-message .input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+  
+ 
+}
+.input-message .input-ms{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 5px;
+ 
+}
+.input-message .input-ms textarea,
+.input-message .input input{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-style: normal;
+    border: none;
+    outline: none;
+    align-items: center;
+    background-color: #3c3c3c;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+.input-message .btn {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+
+.input-message .btn button{
+    width: 130px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-weight: 500;
+    border-radius: 2px;
+    background-color: #b3662e;
+}
+.input-message .btn a{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.question .media{
+    width: 100%;
+    height: auto;
+    margin-top: 30px; 
+    display: block;
+    box-sizing: border-box;
+    justify-content: center;
+  
+}
+
+.media .icon-media{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.icon-media .icon{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 100px;
+    height: 20px;
+}
+.icon-media .icon a{
+    display: flex;
+    width: 50px;
+    height: 60px;
+  
+}
+
+.icon-media .icon .include-media{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #934004;
+}
+
+.isi-kontak .map{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #2a2a2a;
+}
+
+.isi-kontak .map iframe {
+    width: 100%;
+}
+
+.isi-kontak .last-contact{
+    width: 100%;
+    height: 50vh;
+    background-color: #000000;
+}
+

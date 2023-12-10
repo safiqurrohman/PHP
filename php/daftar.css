@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+.back-video{
+    
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: repeat-x;
+
+}
+
+.wrapper{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../properti/solo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center; */
+
+}
+
+.form-box{
+    display: flex;
+    background-color: transparent;
+    padding: 40px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 650px;
+    height: 550px;
+    justify-content: center;
+    box-shadow: 0 0 30px rgba(204, 194, 194, 0.5);
+    backdrop-filter: blur(10px);
+    position: relative;
+    background-color: #1aff00;
+}
+
+form h2{
+
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-box .box-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.form-box .input-user{
+    margin-top: 20px;
+    width: calc(100% / 2 - 10px);
+}
+
+.form-box .input-user label{
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    top: -10%;
+    left: 5px;
+    color: #fff;
+    margin-bottom: 200px;
+}
+.form-box .input-user input{
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+   font-size: .8rem;
+}
+
+.form-box .input-user .icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 245px;
+    text-align: right;
+    justify-content: right;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1rem;
+}
+.form-box .input-user .icon-left{
+    position: absolute;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 245px;
+    text-align: right;
+    justify-content: right;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1rem;
+}
+
+.input-user .btn{
+    width: 100%;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1519ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-user .btn::hover{
+    color: #1519ff;
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+
+/* .form-box .input-btn{
+    margin:  30px 0 15px ;
+    width: 100%;
+    height: 40px;
+}
+.form-box .input-btn button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    outline: none;
+    color: #fff;
+    background-color: #2f23bb;
+}
+.form-box .input-btn button:hover{
+    color: #2f23bb;
+    background-color:#fff ;
+
+    
+} */
+
+.form-box .login{
+    color: #fff;
+    text-align: center;
+    margin:  30px 0 ;
+    font-size: 1rem;
+}
+
+.form-box .login a{
+    color: #2f23bb;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.form-box .login a:hover{
+    border-bottom: 1px solid #2f23bb; 
+}
